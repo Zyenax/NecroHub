@@ -1,0 +1,7 @@
+name: NecroHub
+version: 1.0
+main: net.necrohub.main.NecroHub
+author: Zyenax
+commands:
+  spawn:
+    description: Teleport to spawn!
