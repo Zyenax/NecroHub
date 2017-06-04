@@ -1,6 +1,5 @@
 package net.necrohub.main.menus;
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 import net.necrocore.main.utils.BungeeUtil;
@@ -97,8 +96,8 @@ public class GameMenu implements Listener{
     		public void run() {
     			for(Player player : Bukkit.getOnlinePlayers()){
     				if(player != null){
-    					ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-1"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&0█ &cClick to join this server")));
-            			inv.setItem(20, item);
+    					//ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-1"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&0█ &cClick to join this server")));
+            			//inv.setItem(20, item);
     				}
     			}
     		}
@@ -107,8 +106,8 @@ public class GameMenu implements Listener{
     		public void run() {
     			for(Player player : Bukkit.getOnlinePlayers()){
     				if(player != null){
-    					ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-1"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&c█ &cClick to join this server")));
-            			inv.setItem(20, item);
+    					//ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-1"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&c█ &cClick to join this server")));
+            			//inv.setItem(20, item);
     				}
     			}
     		}
@@ -124,8 +123,8 @@ public class GameMenu implements Listener{
     		public void run() {
     			for(Player player : Bukkit.getOnlinePlayers()){
     				if(player != null){
-    					ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-2"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&0█ &cClick to join this server")));
-            			inv.setItem(22, item);
+    					//ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-2"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&0█ &cClick to join this server")));
+            			//inv.setItem(22, item);
     				}
     			}
     		}
@@ -134,8 +133,8 @@ public class GameMenu implements Listener{
     		public void run() {
     			for(Player player : Bukkit.getOnlinePlayers()){
     				if(player != null){
-    					ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-2"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&c█ &cClick to join this server")));
-            			inv.setItem(22, item);
+    					//ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-2"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&c█ &cClick to join this server")));
+            			//inv.setItem(22, item);
     				}
     			}
     		}
@@ -151,8 +150,8 @@ public class GameMenu implements Listener{
     		public void run() {
     			for(Player player : Bukkit.getOnlinePlayers()){
     				if(player != null){
-    					ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-3"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&0█ &cClick to join this server")));
-            			inv.setItem(24, item);
+    					//ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-3"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&0█ &cClick to join this server")));
+            			//inv.setItem(24, item);
     				}
     			}
     		}
@@ -161,8 +160,8 @@ public class GameMenu implements Listener{
     		public void run() {
     			for(Player player : Bukkit.getOnlinePlayers()){
     				if(player != null){
-    					ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-3"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&c█ &cClick to join this server")));
-            			inv.setItem(24, item);
+    					//ItemStack item = Utils.createItem(Material.WOOL, 1, 14, Utils.color("&eBarrage-3"), Arrays.asList(Utils.color(" "), Utils.color("&7Fight against other players"), Utils.color("&7in order to level up and gain"), Utils.color("&7some currency to compete with your friends"), Utils.color("&7and possibly a chance to win epic gear!"), Utils.color(" "), Utils.color("&8Join &a" + BungeeUtil.playerCountOfServer(player, servername) + " &8others"), Utils.color("&c█ &cClick to join this server")));
+            			//inv.setItem(24, item);
     				}
     			}
     		}
@@ -185,7 +184,7 @@ public class GameMenu implements Listener{
 								if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color("&eBarrage-1"))){
 									e.setCancelled(true);
 									BungeeUtil.sendToServer(p, "Game1");
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERDRAGON_FLAP, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERDRAGON_WINGS, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							
@@ -193,7 +192,7 @@ public class GameMenu implements Listener{
 								if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color("&eBarrage-2"))){
 									e.setCancelled(true);
 									BungeeUtil.sendToServer(p, "Game2");
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERDRAGON_FLAP, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERDRAGON_WINGS, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							
@@ -201,7 +200,7 @@ public class GameMenu implements Listener{
 								if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color("&eBarrage-3"))){
 									e.setCancelled(true);
 									BungeeUtil.sendToServer(p, "Game3");
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERDRAGON_FLAP, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERDRAGON_WINGS, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							
@@ -209,7 +208,7 @@ public class GameMenu implements Listener{
 							if(e.getCurrentItem().getType().equals(Material.STAINED_GLASS_PANE)){
 								if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color(" "))){
 									e.setCancelled(true);
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERMEN_TELEPORT, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERMAN_TELEPORT, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							

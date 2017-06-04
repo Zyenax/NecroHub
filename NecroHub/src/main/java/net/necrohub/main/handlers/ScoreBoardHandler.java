@@ -1,7 +1,6 @@
 	package net.necrohub.main.handlers;
 
 import net.necrocore.main.NecroCore;
-import net.necrocore.main.utils.BungeeUtil;
 import net.necrocore.main.utils.Utils;
 import net.necrohub.main.NecroHub;
 
@@ -125,19 +124,19 @@ public class ScoreBoardHandler implements Listener{
 
             				Team team2 = p.getScoreboard().getTeam("team2");
             				team2.setPrefix(Utils.color("&cNetwork:"));
-            				team2.setSuffix(Utils.color(" &e" + BungeeUtil.playerCountOfServer(p, "ALL")));
+            				team2.setSuffix(Utils.color(" &e" + " _"));
             				
             				Team team3 = p.getScoreboard().getTeam("team3");
             				team3.setPrefix(Utils.color("&cBarrage-1"));
-            				team3.setSuffix(Utils.color(" &e" + BungeeUtil.playerCountOfServer(p, "Game1")));
+            				team3.setSuffix(Utils.color(" &e" + " _ _"));
             				
             				Team team4 = p.getScoreboard().getTeam("team4");
             				team4.setPrefix(Utils.color("&cBarrage-2"));
-            				team4.setSuffix(Utils.color(" &e" + BungeeUtil.playerCountOfServer(p, "Game2")));
+            				team4.setSuffix(Utils.color(" &e" + " _ _ _"));
 
             				Team team5 = p.getScoreboard().getTeam("team5");
             				team5.setPrefix(Utils.color("&cBarrage-3"));
-            				team5.setSuffix(Utils.color(" &e" + BungeeUtil.playerCountOfServer(p, "Game3")));
+            				team5.setSuffix(Utils.color(" &e" + " _ _ _ _"));
         			
             				Team team6 = p.getScoreboard().getTeam("team6"); 
             				team6.setPrefix(Utils.color(" "));

@@ -12,7 +12,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.bukkit.inventory.EquipmentSlot;
 import org.spigotmc.event.entity.EntityDismountEvent;
 
 public class StackHandler implements Listener{
@@ -26,7 +25,6 @@ public class StackHandler implements Listener{
 	@EventHandler
 	public void stack(PlayerInteractEntityEvent e){
 		if(e.getRightClicked() instanceof Player){
-			if(e.getHand() == EquipmentSlot.HAND){
 			Player stacker = e.getPlayer();
 			Player stacking = (Player) e.getRightClicked();
 			if(SQLStacker.getStacker(stacking).equalsIgnoreCase("false")){
@@ -48,7 +46,6 @@ public class StackHandler implements Listener{
 					stacker.sendMessage(Utils.color(NecroCore.name + " &eYou have stacking set to &c&lOFF"));
 					e.setCancelled(true);
 				}
-			}
 			}
 		}
 	}

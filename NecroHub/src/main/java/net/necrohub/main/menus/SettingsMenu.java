@@ -110,7 +110,7 @@ public class SettingsMenu implements Listener{
 										p.hidePlayer(player);
 									}
 									p.sendMessage(Utils.color(NecroCore.name + " &ePlayer Visibility has been toggled to be &c&lOFF"));
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERDRAGON_FLAP, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERDRAGON_WINGS, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}else if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color("&cPLAYER VISIBILITY"))){
 									e.setCancelled(true);
 									SQLVisibility.setVisibility(p, "true");
@@ -121,7 +121,7 @@ public class SettingsMenu implements Listener{
 									}
 									p.updateInventory();
 									p.sendMessage(Utils.color(NecroCore.name + " &ePlayer Visibility has been toggled to be &a&lON"));
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERDRAGON_FLAP, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERDRAGON_WINGS, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							
@@ -133,7 +133,7 @@ public class SettingsMenu implements Listener{
 									inv.setItem(23, f);
 									p.updateInventory();
 									p.sendMessage(Utils.color(NecroCore.name + " &ePlayer Stacking has been toggled to be &c&lOFF"));
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERDRAGON_FLAP, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERDRAGON_WINGS, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}else if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color("&cSTACKER"))){
 									e.setCancelled(true);
 									SQLStacker.setStacker(p, "true");
@@ -141,7 +141,7 @@ public class SettingsMenu implements Listener{
 									inv.setItem(23, t);
 									p.updateInventory();
 									p.sendMessage(Utils.color(NecroCore.name + " &ePlayer Stacking has been toggled to be &a&lON"));
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERDRAGON_FLAP, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERDRAGON_WINGS, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							
@@ -149,7 +149,7 @@ public class SettingsMenu implements Listener{
 							if(e.getCurrentItem().getType().equals(Material.STAINED_GLASS_PANE)){
 								if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color(" "))){
 									e.setCancelled(true);
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERMEN_TELEPORT, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERMAN_TELEPORT, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							

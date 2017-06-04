@@ -29,7 +29,6 @@ public class PlayerJoin implements Listener{
 	@EventHandler
 	public void onJoin(PlayerJoinEvent event){
 		final Player player = event.getPlayer();
-		player.setCollidable(false);
 		event.setJoinMessage(Utils.color("&8[&a+&8] &e" + player.getName()));
 		player.getInventory().clear();
 		event.getPlayer().setFoodLevel(20);

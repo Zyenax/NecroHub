@@ -439,7 +439,7 @@ public class ProfileMenu implements Listener{
 								if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color("&b" + p.getName() + "'s Profile"))){
 									e.setCancelled(true);
 									p.sendMessage(Utils.color(NecroCore.name + " &estore.necrocube.net"));
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERDRAGON_FLAP, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERDRAGON_WINGS, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							
@@ -447,7 +447,7 @@ public class ProfileMenu implements Listener{
 							if(e.getCurrentItem().getType().equals(Material.STAINED_GLASS_PANE)){
 								if(e.getCurrentItem().getItemMeta().getDisplayName().equals(Utils.color(" "))){
 									e.setCancelled(true);
-									p.playSound(p.getLocation(), Sound.ENTITY_ENDERMEN_TELEPORT, Integer.MAX_VALUE, Integer.MAX_VALUE);
+									p.playSound(p.getLocation(), Sound.ENDERMAN_TELEPORT, Integer.MAX_VALUE, Integer.MAX_VALUE);
 								}
 							}
 							
